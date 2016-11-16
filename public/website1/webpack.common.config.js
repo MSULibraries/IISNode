@@ -4,7 +4,7 @@ var autoprefixer = require('autoprefixer');
 var webpack = require('webpack');
 module.exports = {
     entry: [
-        './js/app.js'
+        './app/routes.js'
     ],
     module: {
         loaders: [{
